@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout8" android:layout_marginTop="5dip" android:layout_weight="0.1">
+        <TableLayout android:layout_width="fill_parent" android:id="@+id/tableLayout1" android:layout_height="fill_parent">
+            <TableRow android:layout_width="wrap_content" android:id="@+id/tableRow8" android:layout_height="fill_parent" android:layout_weight="1.5">
+                <LinearLayout android:layout_marginLeft="6dip" android:layout_height="fill_parent" android:layout_marginTop="6dip" android:layout_marginRight="6dip" android:orientation="horizontal" android:id="@+id/LinearLayout01" android:background="#ADD982" android:layout_width="fill_parent" android:layout_weight="1">
+                    <ImageView android:src="@drawable/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView1"></ImageView>
+                </LinearLayout>
+                <LinearLayout android:layout_height="fill_parent" android:orientation="horizontal" android:id="@+id/LinearLayout02" android:background="#99a686" android:layout_width="fill_parent" android:layout_marginTop="6dip" android:layout_marginRight="6dip" android:layout_weight="0.7">
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_marginBottom="3dip" android:layout_marginTop="6dip" android:layout_marginRight="6dip" android:layout_marginLeft="6dip" android:layout_height="fill_parent" android:id="@+id/tableRow1" android:background="#809168" android:layout_width="wrap_content" android:layout_weight="1">
+                <TextView android:layout_height="wrap_content" android:textColor="#FFFFFF" android:layout_width="wrap_content" android:text="Add Expense" android:id="@+id/textView1" android:textSize="30dip" android:layout_gravity="top" android:layout_marginLeft="1dip"></TextView>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/tableRow2" android:layout_weight="1">
+                <LinearLayout android:layout_marginLeft="6dip" android:layout_height="fill_parent" android:layout_marginTop="3dip" android:layout_marginRight="3dip" android:layout_marginBottom="3dip" android:id="@+id/linearLayout1" android:background="#5c734c" android:layout_width="fill_parent" android:layout_weight="10">
+                    <TextView android:textColor="#FFFFFF" android:layout_margin="3dip" android:textSize="20dip" android:text="Add Income" android:id="@+id/textView2" android:layout_height="fill_parent" android:layout_width="fill_parent"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_height="fill_parent" android:layout_marginRight="6dip" android:layout_marginTop="3dip" android:layout_marginBottom="3dip" android:layout_marginLeft="3dip" android:orientation="horizontal" android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:background="#99a686" android:layout_weight="10">
+                    <TextView android:layout_margin="3dip" android:textColor="#FFFFFF" android:id="@+id/textView3" android:layout_weight="1" android:text="View Chart" android:textSize="20dip" android:layout_height="fill_parent" android:layout_width="fill_parent"></TextView>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout7" android:orientation="vertical" android:layout_height="173dp">
+        <TableLayout android:layout_width="fill_parent" android:id="@+id/tableLayout2" android:layout_height="wrap_content">
+            <TableRow android:layout_marginBottom="3dip" android:layout_marginTop="3dip" android:layout_weight="1" android:layout_marginRight="6dip" android:layout_marginLeft="6dip" android:id="@+id/tableRow3" android:layout_height="fill_parent" android:layout_width="wrap_content" android:background="#85a665">
+                <LinearLayout android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="fill_parent" android:id="@+id/daily">
+                    <LinearLayout android:layout_width="fill_parent" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_weight="2" android:id="@+id/linearLayout3" android:layout_marginLeft="10dip">
+                        <LinearLayout android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:id="@+id/linearLayout5" android:layout_weight="1">
+                            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView4" android:textSize="18dip" android:textColor="#FFFFFF" android:text="Daily Statistics"></TextView>
+                            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#FFFFFF" android:text="2012/5/12~2011/7/8" android:textSize="16dip" android:id="@+id/dayDate"></TextView>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:id="@+id/linearLayout6" android:layout_weight="1" android:layout_marginRight="5dip">
+                            <TextView android:layout_width="wrap_content" android:id="@+id/dayIn" android:textSize="18dip" android:layout_marginLeft="5dip" android:text="+ 500" android:layout_height="wrap_content" android:layout_gravity="right|center_vertical" android:textColor="#ffffff"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_marginBottom="3dip" android:layout_marginTop="3dip" android:layout_weight="1" android:layout_marginRight="6dip" android:layout_marginLeft="6dip" android:layout_height="fill_parent" android:id="@+id/tableRow4" android:background="#99a686">
+                <LinearLayout android:layout_height="fill_parent" android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/weekly">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_marginLeft="10dip" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_weight="2" android:id="@+id/LinearLayout06">
+                        <LinearLayout android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:layout_weight="1" android:id="@+id/LinearLayout05">
+                            <TextView android:textSize="18dip" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:layout_width="wrap_content" android:id="@+id/TextView01" android:text="Weekly Statistics"></TextView>
+                            <TextView android:textSize="16dip" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:layout_width="wrap_content" android:text="2012/5/12~2011/7/8" android:id="@+id/weekDate"></TextView>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:layout_weight="1" android:id="@+id/LinearLayout03" android:layout_marginRight="5dip">
+                            <TextView android:textSize="18dip" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="+ 500" android:id="@+id/weekIn" android:layout_gravity="right" android:textColor="#ffffff"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content" android:layout_marginBottom="6dip" android:layout_marginTop="3dip" android:layout_weight="1" android:layout_marginRight="6dip" android:layout_marginLeft="6dip" android:layout_height="fill_parent" android:id="@+id/tableRow5" android:background="#5c734c">
+                <LinearLayout android:layout_height="fill_parent" android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/monthly">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_marginLeft="10dip" android:orientation="horizontal" android:layout_height="fill_parent" android:layout_weight="2" android:id="@+id/LinearLayout10">
+                        <LinearLayout android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:layout_weight="1" android:id="@+id/LinearLayout09">
+                            <TextView android:textSize="18dip" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:layout_width="wrap_content" android:id="@+id/TextView05" android:text="Monthly Statistics"></TextView>
+                            <TextView android:textSize="16dip" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:layout_width="wrap_content" android:text="2012/5/12~2011/7/8" android:id="@+id/monthDate"></TextView>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent" android:layout_weight="1" android:id="@+id/LinearLayout07" android:layout_marginRight="5dip" android:layout_gravity="center_vertical">
+                            <TextView android:textSize="18dip" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="+ 500" android:id="@+id/monthIn" android:layout_gravity="right|center_vertical" android:textColor="#ffffff"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

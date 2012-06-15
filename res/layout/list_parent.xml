@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	android:id="@+id/RelativeLayout01" 
+	android:layout_width="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:paddingBottom="4dip" 
+	android:paddingLeft="1dip"
+	android:paddingRight="12dip" android:background="#ffffff" android:layout_height="50dip">
+<ImageView 
+	android:layout_width="wrap_content" 
+	android:id="@+id/ItemImage" android:layout_marginRight="5dip" android:layout_marginTop="5dip" android:layout_marginBottom="5dip" android:layout_height="wrap_content" android:src="@drawable/z2" android:layout_alignParentLeft="true"/> 
+<TextView 
+    android:layout_height="wrap_content" 
+    android:textSize="20dip" 
+    android:layout_width="wrap_content" 
+    android:id="@+id/ItemTitle" 
+    android:layout_toRightOf="@+id/ItemImage" android:text="mainCategory" android:textColor="#000000"/>
+    
+<TextView android:id="@+id/Id" 
+		  android:layout_height="wrap_content" 
+	      android:layout_toRightOf="@+id/ItemTitle" 
+		  android:text="@+id/Id" 
+		  android:layout_width="wrap_content" android:visibility="invisible">
+</TextView>
+<TextView 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:layout_below="@+id/ItemTitle" 
+	android:id="@+id/ItemText"
+	android:layout_toRightOf="@+id/ItemImage" android:text="subCategory" android:textColor="#000000"/>
+<TextView android:layout_width="wrap_content" android:id="@+id/Money" android:layout_height="wrap_content" android:text="+/-100" android:layout_alignTop="@+id/ItemImage" android:layout_alignParentRight="true" android:textColor="#000000"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/ItemTitle" android:layout_alignRight="@+id/Money" android:id="@+id/date" android:text="2012-04-22" android:textColor="#000000"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:layout_alignBaseline="@+id/date" android:layout_alignBottom="@+id/date" android:layout_toLeftOf="@+id/date" android:id="@+id/type" android:visibility="invisible"></TextView>	
+
+</RelativeLayout>
