@@ -116,7 +116,12 @@ public class CategoryActivity extends Activity{
 				editChildDialog(groupPos, childPos);	
 				break;     
 			case MENU_BUTTON_2:
-				expeneCategory.removeChild(groupPos, childPos);
+				if (type == 0) { 
+					expeneCategory.removeChild(groupPos, childPos);					
+				}
+				else {
+					incomeCategory.removeChild(groupPos, childPos);	
+				}
 				break;   
 			}			
 		}	
