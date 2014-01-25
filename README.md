@@ -7,7 +7,7 @@ A simple android app for recording cash flow and viewing chart.
 
 ![新增](https://raw2.github.com/btsken/Cashflow-Manager/master/doc/img/_0007_%E5%9C%96%E5%B1%A4%204.jpg) 
 
-![分類管理](https://raw2.github.com/btsken/Cashflow-Manager/master/doc/img/_0003_圖層%208.jpg) 
+![分類管理](https://raw2.github.com/btsken/Cashflow-Manager/master/doc/img/_0000_圖層%2011.jpg) 
 
 ![長條圖](https://raw2.github.com/btsken/Cashflow-Manager/master/doc/img/_0004_%E5%9C%96%E5%B1%A4%207.jpg) 
 
